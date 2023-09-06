@@ -55,7 +55,7 @@
 
 // End-device Address (u4_t) in uint32_t format. 
 // Note: The value must start with 0x (current version of TTN Console does not provide this).
-#define ABP_DEVADDR 0x00000000
+#define ABP_DEVADDR 0x00000001
 
 // Network Session Key (u1_t[16]) in msb format
 #define ABP_NWKSKEY 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
